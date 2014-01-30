@@ -44,6 +44,15 @@ update("anything", "magenta")	// outputs 'anything' in magenta
 ```
 Supported colours include black, red, green, yellow, blue, magenta, cyan, white.
 
+You can adjust the space given for the status update with the `updateSettings` function:
+
+```js
+termite.updateSettings({
+	placeholderCharacter : "*",
+	statusLength : 10
+});
+```
+
 ## Known limitations
 
 * Lines off the top of the screen aren't updated

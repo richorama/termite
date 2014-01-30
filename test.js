@@ -1,4 +1,8 @@
 var t = require('./index');
+t.updateSettings({
+	placeholderCharacter : "*",
+	statusLength : 10
+});
 var p1 = t.write("turn on reactor")
 var p2 = t.write("lower the control rods")
 var p3 = t.write("switch on the toaster")

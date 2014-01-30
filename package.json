@@ -1,0 +1,28 @@
+{
+  "name": "termite",
+  "version": "0.0.0",
+  "description": "Display messages on the screen, and update the state asynchronously.",
+  "main": "index.js",
+  "dependencies": {
+    "node-terminal": "~0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richorama/termite.git"
+  },
+  "keywords": [
+    "terminal",
+    "status",
+    "update"
+  ],
+  "author": "richard.astbury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richorama/termite/issues"
+  },
+  "homepage": "https://github.com/richorama/termite"
+}

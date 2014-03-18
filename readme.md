@@ -38,7 +38,7 @@ It support the following convenience methods:
 ```js
 update.ok() 					// outputs 'OK' in green
 update.warning() 				// outputs 'WARN' in yellow
-update.error() 				// outputs 'ERROR' in red
+update.error() 					// outputs 'ERROR' in red
 update("anything")				// outputs 'anything'
 update("anything", "magenta")	// outputs 'anything' in magenta
 ```
